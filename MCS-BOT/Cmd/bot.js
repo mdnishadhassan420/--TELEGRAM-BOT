@@ -7,7 +7,7 @@ if (!global.cooldowns) global.cooldowns = {};
 module.exports = {
     config: {
         name: "bot",
-        author: "MOHAMMAD-BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         version: "2.5.1",
         aliases: ["baby", "বট"], 
         category: "fun",
