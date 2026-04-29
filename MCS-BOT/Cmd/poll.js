@@ -1,6 +1,6 @@
 /**
- * 📊 MCS-BOT ALL-IN-ONE POLL SYSTEM (FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 📊 CSR-BOT ALL-IN-ONE POLL SYSTEM (FIXED)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  */
 
 const fs = require('fs-extra');
@@ -14,7 +14,7 @@ module.exports = {
         aliases: ["vote", "ভোট"],
         role: 1,
         cooldown: 5,
-        credit: "MOHAMMAD BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "পোল তৈরি করুন এবং লিস্ট দেখুন",
         usage: "/poll প্রশ্ন | অপশন ১ | অপশন ২ অথবা /poll list",
         prefix: true
