@@ -1,6 +1,6 @@
 /**
- * 📌 MCS-BOT PIN & UNPIN SYSTEM
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 📌 CSR-BOT PIN & UNPIN SYSTEM
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  */
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
         aliases: ["পিন"],
         role: 1, // শুধু অ্যাডমিন/ওনার ব্যবহার করতে পারবে
         cooldown: 5,
-        credit: "MOHAMMAD BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "মেসেজ পিন বা আনপিন করুন",
         usage: "/pin (রিপ্লাই দিয়ে) অথবা /pin un (আনপিন করতে)",
         prefix: true
