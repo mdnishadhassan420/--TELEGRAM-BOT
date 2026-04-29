@@ -6,7 +6,7 @@ const settingsPath = path.join(__dirname, '..', 'noprefix_settings.json');
 module.exports.config = {
   name: "noprefix",
   version: "1.0.1", 
-  credits: "MOHAMMAD-BADOL",
+  credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
   permission: 2, 
   prefix: true,
   description: "Turns global noprefix mode ON or OFF.",
