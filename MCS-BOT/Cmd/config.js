@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: SMART MASTER SETTINGS (FINAL FULL FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: SMART MASTER SETTINGS (FINAL FULL FIXED)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  * 🛡️ FEATURES: Auto File Create, Flexible Arguments
  */
@@ -18,7 +18,7 @@ module.exports = {
         aliases: ["set", "setting"],
         version: "4.5.0",
         permission: 2, 
-        credits: "Mohammad Badol",
+        credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "বটের কমান্ড ও ইন্টারনাল সিস্টেম অন/অফ করার মাস্টার প্যানেল",
         prefix: true,
         category: "Admin",
@@ -73,7 +73,7 @@ module.exports = {
                 cmdList += `• \`${cmd}\` ${isOff ? '❌' : '✅'}\n`;
             });
 
-            let responseMsg = "⚙️ **MCS-BOT MASTER SETTINGS**\n";
+            let responseMsg = "⚙️ **CSR-BOT MASTER SETTINGS**\n";
             responseMsg += "━━━━━━━━━━━━━━━━━━━━━━\n";
             responseMsg += `📊 **STATISTICS:**\n`;
             responseMsg += `├ Total Commands: **${allCmds.length - 1}**\n`;
