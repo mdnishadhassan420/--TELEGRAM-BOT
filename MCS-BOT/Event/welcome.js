@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "welcome",
         eventType: "new_chat_members", 
-        author: "MOHAMMAD-BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "নতুন মেম্বার জয়েন করলে প্রিমিয়াম কার্ডসহ স্বাগতম জানাবে"
     },
 
@@ -15,7 +15,7 @@ module.exports = {
         const groupName = msg.chat.title || "Group";
         const newMembers = msg.new_chat_members;
         const ownerID = "6954597258"; 
-        const ownerName = "MOHAMMAD-BADOL";
+        const ownerName = "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر";
 
         // ১. সময় ও তারিখ (বাংলাদেশ টাইমজোন)
         const now = new Date();
