@@ -1,6 +1,6 @@
 /**
- * 💣 EMOJI SPAM COMMAND (MCS-BOT FINAL)
- * 👤 AUTHOR: MOHAMMAD-BADOL
+ * 💣 EMOJI SPAM COMMAND (CSR-BOT FINAL)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  */
 
@@ -8,7 +8,7 @@ module.exports = {
   config: {
     name: "spam",
     aliases: ["spm"],
-    credit: "MOHAMMAD-BADOL", 
+    credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", 
     version: "1.0.0",
     cooldown: 5,               
     role: 2,                  // আপনার মেইন ফাইল অনুযায়ী ২ মানে শুধু আপনার জন্য
