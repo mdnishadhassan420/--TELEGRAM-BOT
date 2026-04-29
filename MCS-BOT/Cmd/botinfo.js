@@ -1,8 +1,8 @@
 /**
  * 🤖 COMMAND: BOT INFO (PREMIUM EDITION WITH BUTTON)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
- * 💠 SYSTEM: MCS-BOT CORE V5
+ * 💠 SYSTEM: CSR-BOT CORE V5
  */
 
 const os = require('os');
@@ -14,7 +14,7 @@ module.exports = {
         name: "botinfo",
         aliases: ["status", "system", "botin", "owner"],
         version: "5.5.0 (ULTIMATE)",
-        credit: "MOHAMMAD-BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0,
         cooldown: 5,
         category: "System",
@@ -48,9 +48,9 @@ module.exports = {
         let info = `✨ **${global.CONFIG.BOT_SETTINGS.NAME || "MCS-BOT"} | PREMIUM SYSTEM** ✨\n`;
         info += `┏━━━━━━━━━━━━━━━━━━━━━━━━┓\n`;
         info += `┃   💠 **DEVELOPER PROFILE**\n`;
-        info += `┃ 👤 **Author:** Mohammad Badol\n`;
+        info += `┃ 👤 **Author:** 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر\n`;
         info += `┃ 🛡️ **Version:** ${module.exports.config.version}\n`;
-        info += `┃ 📅 **Year:** 2026 (MCS-CORE)\n`;
+        info += `┃ 📅 **Year:** 2026 (CSR-CORE)\n`;
         info += `┗━━━━━━━━━━━━━━━━━━━━━━━━┛\n\n`;
 
         info += `⚙️ **ACTIVE CORE ENGINES**\n`;
@@ -70,7 +70,7 @@ module.exports = {
         info += `┗ 🛰️ **Prefix:** [ \`${global.CONFIG.BOT_SETTINGS.PREFIX}\` ]\n\n`;
 
         info += `━━━━━━━━━━━━━━━━━━━━━━━\n`;
-        info += `⚡ _MCS-BOT is optimized for 2026_`;
+        info += `⚡ _CSR-BOT is optimized for 2026_`;
 
         // --- 🔘 ইনলাইন কিবোর্ড বাটন ---
         const options = {
@@ -80,11 +80,11 @@ module.exports = {
             reply_markup: {
                 inline_keyboard: [
                     [
-                        { text: '✈️ Telegram', url: 'https://t.me/B4D9L_007' },
-                        { text: '🔵 Facebook', url: 'https://m.me/B4D9L' }
+                        { text: '✈️ Telegram', url: 'https://t.me/aurariyad' },
+                        { text: '🔵 Telegram', url: 'https://m.me/aurariyadsir' }
                     ],
                     [
-                        { text: '👨‍💻 Owner Contact', url: 'https://t.me/B4D9L_007' }
+                        { text: '👨‍💻 Owner Contact', url: 'https://t.me/aurariyad' }
                     ]
                 ]
             }
