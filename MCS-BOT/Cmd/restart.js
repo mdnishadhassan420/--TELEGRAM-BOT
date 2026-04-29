@@ -4,7 +4,7 @@ const { createCanvas, loadImage, registerFont } = require('canvas');
 
 module.exports.config = {
     name: "restart",
-    credits: "MOHAMMAD-BADOL",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     aliases: ["resed"],
     version: "1.6.0",
     permission: 2, 
@@ -88,7 +88,7 @@ module.exports.run = async (bot, msg, args) => {
         ctx.textAlign = 'left';
         ctx.fillStyle = '#00FFFF';
         ctx.font = 'bold 50px Courier New';
-        ctx.fillText('MCS-BOT', 250, 130);
+        ctx.fillText('CSR-BOT', 250, 130);
         
         ctx.font = '20px Courier New';
         ctx.fillText('━━━━━━━━━━━━━━━━━━━━━━━━━━', 250, 160);
