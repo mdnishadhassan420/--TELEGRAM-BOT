@@ -1,8 +1,8 @@
 /**
- * 🤖 MCS-BOT COMMAND: APK LIST
- * 👤 CREDIT: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: APK LIST
+ * 👤 CREDIT: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
- * 🆔 TELEGRAM ID: 6954597258
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
         name: "apk",
         aliases: ["apps", "app"],
         version: "1.0.0",
-        credit: "MOHAMMAD BADOL", // ক্রেডিট সিস্টেম
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", // ক্রেডিট সিস্টেম
         role: 0,                   // সবার জন্য উন্মুক্ত
         cooldown: 10,              // স্প্যাম রোধে ১০ সেকেন্ড কুলডাউন
         prefix: true,
@@ -58,37 +58,37 @@ module.exports = {
             const apkButtons = {
                 inline_keyboard: [
                     [
-                        { text: "🛠️ Apk Editor Pro", url: "https://t.me/SB_MODS_APK/115" },
-                        { text: "🤖 BADOL_TG_BOT", url: "https://t.me/SB_MODS_APK/116" }
+                        { text: "🛠️ Apk Editor Pro", url: "Nai" },
+                        { text: "🤖 BADOL_TG_BOT", url: "Nai" }
                     ],
                     [
-                        { text: "📘 MCS Fb Lite", url: "https://t.me/SB_MODS_APK/117" },
-                        { text: "💳 HD Card Maker", url: "https://t.me/SB_MODS_APK/118" }
+                        { text: "📘 MCS Fb Lite", url: "Nai" },
+                        { text: "💳 HD Card Maker", url: "Nai" }
                     ],
                     [
-                        { text: "⌨️ Redmik Keyboard", url: "https://t.me/SB_MODS_APK/119" },
-                        { text: "🎵 Audio Player Pro", url: "https://t.me/SB_MODS_APK/120" }
+                        { text: "⌨️ Redmik Keyboard", url: "Nai" },
+                        { text: "🎵 Audio Player Pro", url: "Nai" }
                     ],
                     [
-                        { text: "🎬 Inshot Premium", url: "https://t.me/SB_MODS_APK/121" },
-                        { text: "📨 Telegram Puls Mod", url: "https://t.me/SB_MODS_APK/122" }
+                        { text: "🎬 Inshot Premium", url: "Nai" },
+                        { text: "📨 Telegram Puls Mod", url: "Nai" }
                     ],
                     [
-                        { text: "📹 Xrecorder Pro", url: "https://t.me/SB_MODS_APK/123" },
-                        { text: "🌐 TouchVPN Mod", url: "https://t.me/SB_MODS_APK/124" }
+                        { text: "📹 Xrecorder Pro", url: "Nai" },
+                        { text: "🌐 TouchVPN Mod", url: "Nai" }
                     ],
                     [
-                        { text: "🖼️ PixelLab MB", url: "https://t.me/SB_MODS_APK/125" },
-                        { text: "🖼️ PixelLab MB 2", url: "https://t.me/SB_MODS_APK/126" }
+                        { text: "🖼️ PixelLab MB", url: "Nai" },
+                        { text: "🖼️ PixelLab MB 2", url: "Nai" }
                     ],
                     [
-                        { text: "🛠️ Apk Editor MB", url: "https://t.me/SB_MODS_APK/127" },
-                        { text: "📘 Old FB Lite",  url: "https://t.me/SB_MODS_APK/31" }
+                        { text: "🛠️ Apk Editor MB", url: "Nai" },
+                        { text: "📘 Old FB Lite",  url: "Nai" }
                     ],
                     // --- নতুন বাটন নিচে যোগ করা হয়েছে ---
                     [
-                        { text: "🆔 Fb Name Change Capital", url: "https://t.me/SB_MODS_APK/136" },
-                        { text: "🆕 Coming Soon 🔙", url: "https://t.me/SB_MODS_APK/" }
+                        { text: "🆔 Fb Name Change Capital", url: "Nai" },
+                        { text: "🆕 Coming Soon 🔙", url: "Nai" }
                     ]
                 ]
             };
