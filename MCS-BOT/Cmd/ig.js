@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT ISLAMIC POST MODULE
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT ISLAMIC POST MODULE
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🛡️ FEATURES: Stylish Box Design, Random Caption & Photo
  */
 
@@ -8,7 +8,7 @@ const axios = require('axios');
 
 module.exports.config = {
   name: "prefix_only_post", 
-  credits: "MOHAMMAD-BADOL",
+  credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
   prefix: true,
   aliases: ["/", "islamic", "randompost"], 
   description: "Random Islamic Caption with photo triggered by prefix alone.",
@@ -77,7 +77,7 @@ module.exports.run = async (bot, msg) => {
       stylishMsg += `╚══════════════════╝\n\n`;
       stylishMsg += `» ${randomCaption} «\n\n`;
       stylishMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
-      stylishMsg += `👤 **Owner:** Mohammad Badol\n`;
+      stylishMsg += `👤 **Owner:** 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر\n`;
       stylishMsg += `🤖 **Bot:** ${botName}\n`;
       stylishMsg += `━━━━━━━━━━━━━━━━━━━━`;
 
