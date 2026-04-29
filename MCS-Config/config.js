@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT CONFIGURATION FILE
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT CONFIGURATION FILE
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  */
 
