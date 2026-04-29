@@ -1,6 +1,6 @@
 /**
  * 📶 SIM & WALLET INFO COMMAND (FULL FIXED)
- * 👤 AUTHOR: MOHAMMAD-BADOL
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  */
 
@@ -24,7 +24,7 @@ module.exports = {
   config: {
     name: "sb",
     version: "2.5.0",
-    credit: "MOHAMMAD-BADOL",
+    credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     cooldown: 5,
     role: 0, 
     prefix: true,
