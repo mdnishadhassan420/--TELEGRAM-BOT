@@ -1,13 +1,13 @@
 /**
  * 🤖 MCS-BOT RULES COMMAND (ULTIMATE FIXED & SYNCED)
- * 👤 AUTHOR: MOHAMMAD BADOL
- * 🆔 TELEGRAM ID: 6954597258
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 module.exports.config = {
   name: "rules",
   version: "2.6.0",
-  credits: "MOHAMMAD BADOL",
+  credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
   cooldown: 5,
   role: 0,
   prefix: true,
@@ -25,7 +25,7 @@ module.exports.run = async (bot, msg, args) => {
 
     const rulesMessage = `
 ╔════════════════════════╗
-     🛡️ **MCS-BOT OFFICIAL RULES** 🛡️
+     🛡️ **CSR-BOT OFFICIAL RULES** 🛡️
 ╚════════════════════════╝
 
 👋 **হ্যালো, ${senderName}!**
@@ -47,16 +47,16 @@ module.exports.run = async (bot, msg, args) => {
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔹 **Prefix:** বটের প্রিফিক্স হলো [\` / \`]
 🔹 **Commands:** সব কমান্ড দেখতে টাইপ করুন \`/help\`
-🔹 **Owner:** MOHAMMAD BADOL
+🔹 **Owner:** 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
 🔹 **Version:** ২.৬.০ (Stable)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 📢 **চ্যানেল ও সাপোর্ট গ্রুপ (Links)**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
-📡 **Main Channel:** @SB_MODS_APK
-💬 **Support Group:** @mcssupport
-👥 **Bot GC:** @BADOLBOTGC
-🎨 **Editor Zone:** @mreditorzone
+📡 **Main Channel:** @techmatrix360
+💬 **Support Group:** @botgccsr
+👥 **Bot GC:** @botgccsr
+🧃 **Group :** @csrcyber
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⚠️ **শাস্তি (Warning System)**
@@ -67,7 +67,7 @@ module.exports.run = async (bot, msg, args) => {
 
 **"সুন্দর পরিবেশ বজায় রাখতে আমাদের সহযোগিতা করুন।"**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
-© 2026 MCS-BOT | Powered by **BADOL**`;
+© 2026 CSR-BOT | Powered by **𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر**`;
 
     return bot.sendMessage(chatId, rulesMessage, {
         reply_to_message_id: messageId,
@@ -76,15 +76,15 @@ module.exports.run = async (bot, msg, args) => {
         reply_markup: {
             inline_keyboard: [
                 [
-                    { text: "👨‍💻 Contact Owner", url: "tg://user?id=6954597258" },
-                    { text: "📢 SB MODS APK", url: "https://t.me/SB_MODS_APK" }
+                    { text: "👨‍💻 Contact Owner", url: "tg://user?id=6969889252" },
+                    { text: "📢 SR MODS APK", url: "https://t.me/testcsrriyad" }
                 ],
                 [
-                    { text: "💬 Support", url: "https://t.me/mcssupport" },
-                    { text: "👥 Bot GC", url: "https://t.me/BADOLBOTGC" }
+                    { text: "💬 Support", url: "https://t.me/csrsupporter_bot" },
+                    { text: "👥 Bot GC", url: "https://t.me/botgccsr" }
                 ],
                 [
-                    { text: "🎨 Editor Zone", url: "https://t.me/mreditorzone" }
+                    { text: "🧃Group", url: "https://t.me/csrcyber" }
                 ]
             ]
         }
