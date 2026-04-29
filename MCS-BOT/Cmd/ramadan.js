@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: RAMADAN V4 (FINAL FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: RAMADAN V4 (FINAL FIXED)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  * 🛠 FEATURES: 12-Hour Format, Auto-Notification, Phase Info (Rahmat/Magfirat/Najat), Dual Eid Countdown.
  */
@@ -52,8 +52,8 @@ module.exports = {
         name: "ramadan",
         aliases: ["roza", "iftar", "eid"],
         version: "4.5.0",
-        author: "MOHAMMAD-BADOL",
-        credit: "MOHAMMAD BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0,
         cooldown: 5,
         prefix: true,
