@@ -1,6 +1,6 @@
 /**
  * 🎬 AUTO VIDEO DOWNLOADER (NO PREFIX)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  */
 
 const axios = require('axios');
@@ -10,7 +10,7 @@ module.exports = {
     config: {
         name: "alldown",
         version: "1.3.6",
-        author: "Mohammad Badol",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         prefix: false, // প্রিফিক্স ছাড়াই কাজ করবে
         category: "Media"
     },
