@@ -1,7 +1,7 @@
 /**
- * 🤖 MCS-BOT COMMAND: LOVE PAIR (FINAL FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
- * 🆔 TELEGRAM ID: 6954597258
+ * 🤖 CSR-BOT COMMAND: LOVE PAIR (FINAL FIXED)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 const axios = require("axios");
@@ -16,7 +16,7 @@ const config = {
     role: 0,
     cooldown: 15,
     prefix: true,
-    credit: "MOHAMMAD BADOL",
+    credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     description: "ভাগ্য নির্ধারণ করুন।"
 };
 
