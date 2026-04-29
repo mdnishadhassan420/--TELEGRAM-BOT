@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: LOGO TEXT EFFECTS (With Random Support)
- * 👤 AUTHOR: MOHAMMAD BADOL (Converted)
+ * 🤖 CSR-BOT COMMAND: LOGO TEXT EFFECTS (With Random Support)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر (Converted)
  * 📅 YEAR: 2026
  */
 
@@ -50,7 +50,7 @@ module.exports = {
         role: 0,
         cooldown: 8,
         prefix: true,
-        credit: "MOHAMMAD BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "বিভিন্ন স্টাইলে লোগো তৈরি করুন (আইডি না দিলে র‍্যান্ডম স্টাইল হবে)।"
     },
 
