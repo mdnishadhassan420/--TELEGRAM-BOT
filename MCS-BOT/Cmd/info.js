@@ -4,7 +4,7 @@ const { createCanvas, loadImage } = require('canvas');
 
 module.exports.config = {
     name: "owner",
-    credits: "MOHAMMAD-BADOL",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     aliases: ["info", "author", "admin"],
     version: "1.3.0",
     permission: 1, 
@@ -20,14 +20,14 @@ module.exports.run = async (bot, msg, args) => {
     const messageId = msg.message_id;
     
     const ownerInfo = {
-        name: "MOHAMMAD BADOL",
-        age: "28+ (Developer)",
+        name: "6969889252",
+        age: "20+ (Developer)",
         home: "DHAKA, BANGLADESH",
-        city: "KHULNA, PAIKGACHA",
+        city: "RAJSHAHI",
         job: "FULL STACK DEVELOPER",
-        telegram: "@B4D9L_007",
-        facebook: "m.me/B4D9L",
-        uid: "6954597258"
+        telegram: "@aurariyad",
+        facebook: "nai",
+        uid: "6969889252"
     };
 
     try {
