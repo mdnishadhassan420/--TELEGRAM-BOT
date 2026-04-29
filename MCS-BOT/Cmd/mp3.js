@@ -1,8 +1,8 @@
 /**
- * 🛠️ MCS-BOT COMMAND: MP3 CONVERTER
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT COMMAND: MP3 CONVERTER
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🛡️ SYSTEM: ROLE 0, COOLDOWN, CREDIT, FILE SYSTEM
- * 📂 TEMP STORAGE: MCS-BOT/Cmd/Badol/
+ * 📂 TEMP STORAGE: CSR-BOT/Cmd/Badol/
  */
 
 const fs = require('fs');
@@ -16,7 +16,7 @@ module.exports = {
         aliases: ["audio", "music"],
         version: "1.0.2",
         role: 0, // সবার জন্য উন্মুক্ত
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         cooldown: 10, // ১০ সেকেন্ড কুলডাউন (প্রসেসিং এর জন্য সময় লাগে)
         category: "Media",
         description: "ভিডিও ফাইল বা সোশ্যাল মিডিয়া লিংক থেকে MP3 নামান।",
