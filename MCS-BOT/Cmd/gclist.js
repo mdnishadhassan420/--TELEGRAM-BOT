@@ -1,14 +1,14 @@
 /**
- * 🤖 MCS-BOT COMMAND: LIST GROUPS (AUTO FILE CREATION)
- * 👤 AUTHOR: MOHAMMAD BADOL
- * 🆔 TELEGRAM ID: 6954597258
+ * 🤖 CSR-BOT COMMAND: LIST GROUPS (AUTO FILE CREATION)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 const fs = require('fs-extra'); // fs-extra ব্যবহার করা হয়েছে ফোল্ডার তৈরির সুবিধার্থে
 const path = require('path');
 
 function makeBotBox(text) {
-    return `╭━─━─━❮ ✿𝐁𝐀𝐃𝐎𝐋-𝐁𝐎𝐓✿ ❯━─━─━╮\n\n${text}\n\n╰━──━─━−━━──━━─━━─━━─━❍`;
+    return `╭━─━─━❮ ✿𝐂𝐒𝐑-𝐁𝐎𝐓✿ ❯━─━─━╮\n\n${text}\n\n╰━──━─━−━━──━━─━━─━━─━❍`;
 }
 
 module.exports = {
@@ -16,8 +16,8 @@ module.exports = {
         name: "gclist",
         aliases: ["group", "grplist"],
         version: "1.1.0",
-        author: "MOHAMMAD-BADOL",
-        credit: "MOHAMMAD BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 2,
         cooldown: 10,
         prefix: true,
