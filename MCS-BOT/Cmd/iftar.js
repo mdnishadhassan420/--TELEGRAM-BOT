@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: IFTAR & SEHRI TIMING
- * 👤 AUTHOR: RAKIB (Converted for MCS-BOT by Gemini)
+ * 🤖 CSR-BOT COMMAND: IFTAR & SEHRI TIMING
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر (Converted for CSR-BOT by Gemini)
  * 📝 DESCRIPTION: Real-time Ramadan timings with dynamic image generation.
  */
 
@@ -13,7 +13,7 @@ module.exports = {
         role: 0,        // সবার জন্য উন্মুক্ত
         cooldown: 5,    // ৫ সেকেন্ড কুলডাউন
         prefix: true,   // প্রিফিক্স প্রয়োজন (আপনি চাইলে false করতে পারেন)
-        credit: "MOHAMMAD-BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "Fixed Premium Ramadan Interface with timings and countdown.",
         usage: "[city] --c [color]"
     },
