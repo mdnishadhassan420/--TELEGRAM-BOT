@@ -89,11 +89,11 @@ module.exports.run = async (bot, msg, args) => {
     ctx.textAlign = "left";
     ctx.fillStyle = "#00f2fe";
     ctx.font = "bold 52px sans-serif";
-    ctx.fillText("BADOL-BOT", 240, 105);
+    ctx.fillText("CSR-BOT", 240, 105);
     
     ctx.font = "bold 28px sans-serif";
     ctx.fillStyle = "#FFD700"; 
-    const ownerName = "Owner: MOHAMMAD-BADOL";
+    const ownerName = "Owner: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر";
     ctx.fillText(ownerName, 240, 155);
 
     const ownerTextWidth = ctx.measureText(ownerName).width;
@@ -168,7 +168,7 @@ module.exports.run = async (bot, msg, args) => {
     try {
       await bot.sendPhoto(chatId, fs.createReadStream(imgPath), {
         reply_to_message_id: messageId,
-        caption: `🚀 **BADOL-BOT ONLINE**\n\n👤 **Owner:** Mohammad Badol\n⏳ **Uptime:** ${formatUptime()}\n📡 **Ping:** ${ping}ms`,
+        caption: `🚀 **CSR-BOT ONLINE**\n\n👤 **Owner:** 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر\n⏳ **Uptime:** ${formatUptime()}\n📡 **Ping:** ${ping}ms`,
         parse_mode: "Markdown"
       });
     } catch (err) {
