@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT COMMAND: GITHUB
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT COMMAND: GITHUB
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🛡️ SYSTEM: ROLE, COOLDOWN, CREDIT INTEGRATED
  */
 
@@ -12,7 +12,7 @@ module.exports = {
         aliases: ["gh", "git"],
         version: "4.0",
         role: 0, // সবার জন্য উন্মুক্ত (User Level)
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         cooldown: 5, // ৫ সেকেন্ড কুলডাউন
         category: "Information",
         description: "গিটহাব প্রোফাইলের বিস্তারিত তথ্য দেখায়।",
