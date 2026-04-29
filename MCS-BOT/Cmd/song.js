@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT COMMAND: SONG / VIDEO SEARCH
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT COMMAND: SONG / VIDEO SEARCH
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🛡️ SYSTEM: ROLE 0, COOLDOWN, CREDIT, AUTO SEARCH
  */
 
@@ -14,7 +14,7 @@ module.exports = {
         aliases: ["sing", "yt"],
         version: "2.0.0",
         role: 0, // সবার জন্য উন্মুক্ত
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         cooldown: 15, // ভিডিও প্রসেসিংয়ে সময় লাগে তাই ১৫ সেকেন্ড কুলডাউন
         category: "Media",
         description: "ইউটিউব থেকে গান বা ভিডিও সার্চ করে ডাউনলোড করুন।",
