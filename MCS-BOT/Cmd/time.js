@@ -5,7 +5,7 @@ const path = require("path");
 module.exports.config = {
     name: "time",
     version: "1.0.6",
-    credits: "MOHAMMAD-BADOL",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     permission: 0,
     prefix: true,
     description: "বর্তমান সময়, বাংলা-ইংরেজি-হিজরি তারিখ এবং ১২ মাসের তালিকা দেখুন।",
