@@ -31,10 +31,10 @@ module.exports = {
     config: {
         name: "start",
         version: "2.0.0",
-        author: "MOHAMMAD-BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         countDown: 5,
         role: 0,
-        description: "MCS বটের মেইন মেনু এবং ইউজার রিপোর্ট",
+        description: "CSR বটের মেইন মেনু এবং ইউজার রিপোর্ট",
         category: "System",
         guide: "{pn}",
         prefix: true
@@ -42,7 +42,7 @@ module.exports = {
 
     run: async (bot, msg, args) => {
         const { chat, from, message_id } = msg;
-        const ADMIN_ID = 6954597258; // আপনার টেলিগ্রাম আইডি
+        const ADMIN_ID = 6969889252; // আপনার টেলিগ্রাম আইডি
 
         try {
             if (!from) return;
@@ -62,7 +62,7 @@ module.exports = {
             }
 
             const infoText = 
-`👤 <b>নতুন ইউজার রিপোর্ট (MCS BOT):</b>
+`👤 <b>নতুন ইউজার রিপোর্ট (CSR BOT):</b>
 
 🪪 <b>নাম:</b> ${full_name}
 🔗 <b>ইউজারনেম:</b> ${username}
@@ -92,9 +92,9 @@ module.exports = {
                             { text: "🔴 Add to Group", url: `https://t.me/${botUsername}?startgroup=true` },
                             { text: "🔵 Add to Channel", url: `https://t.me/${botUsername}?startchannel=true` }
                         ],
-                        [{ text: "📩 MCS-SUPPORT-GROUP✅", url: "https://t.me/mcssupport" }],
-                        [{ text: "📩 MB_EDITOR_ZONE✅", url: "https://t.me/mreditorzone" }],
-                        [{ text: "📩 BADOL-BOT-GC✅", url: "https://t.me/BADOLBOTGC" }]
+                        [{ text: "📩 CSR-SUPPORT-BOT✅", url: "https://t.me/csrsupporter_bot" }],
+                        [{ text: "📩 MAIN CHANEL✅", url: "https://t.me/techmatrix360" }],
+                        [{ text: "📩 CSR-BOT-GC✅", url: "https://t.me/botgccsr" }]
                     ]
                 }
             };
