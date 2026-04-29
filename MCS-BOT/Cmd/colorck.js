@@ -1,8 +1,8 @@
 /**
- * 🤖 MCS-BOT COMMAND: COLOR CHECK
- * 👤 CREDIT: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: COLOR CHECK
+ * 👤 CREDIT: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
- * 🆔 TELEGRAM ID: 6954597258
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
         name: "colorck",
         aliases: ["colerck", "checkcolor", "hex"],
         version: "1.0.0",
-        credit: "MOHAMMAD BADOL", // ক্রেডিট সিস্টেম
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", // ক্রেডিট সিস্টেম
         role: 0,                   // সবার জন্য উন্মুক্ত
         cooldown: 5,               // ৫ সেকেন্ড কুলডাউন
         prefix: true,
