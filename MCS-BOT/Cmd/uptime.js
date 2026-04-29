@@ -6,7 +6,7 @@ const axios = require("axios");
 
 module.exports.config = {
     name: "up",
-    credits: "Mohammad Badol",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     aliases: ["uptime", "status"],
     prefix: true,
     permission: 0,
