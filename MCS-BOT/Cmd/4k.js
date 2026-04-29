@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: 4K IMAGE UPSCALE
- * 👤 AUTHOR: MOHAMMAD BADOL (Converted)
+ * 🤖 CSR-BOT COMMAND: 4K IMAGE UPSCALE
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر (Converted)
  * 📅 YEAR: 2026
  */
 
@@ -26,7 +26,7 @@ module.exports = {
         role: 0,            // ০ = সবাই ব্যবহার করতে পারবে
         cooldown: 10,       // ১০ সেকেন্ড কুলডাউন (ইমেজ প্রসেসিং এর জন্য বেশি রাখা ভালো)
         prefix: true,       // প্রিপিক্স লাগবে
-        credit: "MOHAMMAD BADOL", // আপনার ক্রেডিট সিস্টেম অনুযায়ী
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", // আপনার ক্রেডিট সিস্টেম অনুযায়ী
         description: "ইমেজকে 4K কোয়ালিটিতে রূপান্তর করুন (Reply to image)"
     },
 
