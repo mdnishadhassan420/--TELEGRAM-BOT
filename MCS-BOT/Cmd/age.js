@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: AGE CALCULATOR (COMPLETE DETAILS)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: AGE CALCULATOR (COMPLETE DETAILS)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  */
 
@@ -13,7 +13,7 @@ module.exports = {
         role: 0,
         cooldown: 5,
         prefix: true,
-        credit: "MOHAMMAD BADOL" 
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر" 
     },
 
     run: async (bot, msg, args) => {
