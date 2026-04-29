@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports.config = {
     name: "pp",
-    credits: "MOHAMMAD-BADOL",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     aliases: ["pfp", "profilepic"],
     prefix: true,
     permission: 0, 
