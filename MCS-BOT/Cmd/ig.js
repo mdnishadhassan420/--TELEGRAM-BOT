@@ -21,7 +21,7 @@ module.exports.run = async (bot, msg) => {
     const messageId = msg.message_id;
     
     // ডাইনামিক বট নাম সংগ্রহের চেষ্টা
-    let botName = "MCS-BOT";
+    let botName = "CSR-BOT";
     try {
         const me = await bot.getMe();
         botName = me.first_name;
