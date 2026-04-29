@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: IMGUR UPLOADER
- * 👤 AUTHOR: MOHAMMAD BADOL (SYSTEM SYNCED)
+ * 🤖 CSR-BOT COMMAND: IMGUR UPLOADER
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر (SYSTEM SYNCED)
  * 📝 ORIGINAL CREDITS: Nayan
  */
 
@@ -10,7 +10,7 @@ module.exports.config = {
     name: "imgur",
     version: "1.0.0",
     role: 0, // আপনার সিস্টেম অনুযায়ী (০ = ইউজার, ১ = এডমিন, ২ = অনার)
-    credit: "MOHAMMAD BADOL", // সিস্টেম রিকোয়ারমেন্ট অনুযায়ী ক্রেডিট নাম
+    credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", // সিস্টেম রিকোয়ারমেন্ট অনুযায়ী ক্রেডিট নাম
     description: "Upload images or videos to Imgur via link or reply",
     prefix: true, // প্রিফিক্স প্রয়োজন কি না
     category: "utility",
