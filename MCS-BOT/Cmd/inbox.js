@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT COMMAND: INBOX (NO PREFIX)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT COMMAND: INBOX (NO PREFIX)
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🛡️ SYSTEM: ROLE 0, COOLDOWN, CREDIT, NO-PREFIX
  */
 
@@ -10,7 +10,7 @@ module.exports = {
         aliases: ["ib", "in"],
         version: "1.1.0",
         role: 0, // সবার জন্য উন্মুক্ত
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         cooldown: 5, // ৫ সেকেন্ড কুলডাউন
         category: "Utility",
         description: "ইউজারের ইনবক্সে এডমিন কন্টাক্ট এবং নোটিশ পাঠানো।",
@@ -22,7 +22,7 @@ module.exports = {
         const chatId = msg.chat.id;
         const userId = msg.from.id;
         const userName = msg.from.first_name || "ইউজার";
-        const AUTHOR_ID = 6954597258; // আপনার সেভ করা আইডি
+        const AUTHOR_ID = 6969889252; // আপনার সেভ করা আইডি
 
         // ইনবক্সে পাঠানোর মেসেজ ডিজাইন
         const privateNotice = `🔔 **অফিসিয়াল নোটিশ**\n━━━━━━━━━━━━━━━━━━━━\nপ্রিয় **${userName}**, আমাদের বট ব্যবহার করার জন্য আপনাকে ধন্যবাদ।\n\n🚀 **আপডেট:** বটের নতুন সব ফিচার এবং আপডেট জানতে আমাদের সাথেই থাকুন। কোনো সমস্যা হলে ওনারের সাথে যোগাযোগ করুন।`;
