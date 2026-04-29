@@ -1,8 +1,8 @@
 /**
  * 🛠️ MCS-BOT TERMUX MASTER TOOL (ULTIMATE FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
- * 🆔 TELEGRAM ID: 6954597258
+ * 🆔 TELEGRAM ID: 6969889252
  * 📝 UPDATE: FULL BEGINNER TO EXPERT SETUP ADDED
  */
 
@@ -11,7 +11,7 @@ module.exports = {
         name: "termux",
         aliases: ["tux", "termuxsetup", "setup"],
         version: "2.1.0",
-        credit: "MOHAMMAD BADOL",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0, 
         cooldown: 5,
         prefix: true,
