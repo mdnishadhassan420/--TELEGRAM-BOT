@@ -1,6 +1,6 @@
 /**
- * 🤖 MCS-BOT COMMAND: USER MANAGER + BROADCAST
- * 👤 CREDIT: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: USER MANAGER + BROADCAST
+ * 👤 CREDIT: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
  */
 
@@ -12,7 +12,7 @@ module.exports = {
         name: "user",
         aliases: ["users", "broadcast", "db"],
         version: "1.1.0",
-        credit: "MOHAMMAD BADOL",
+        credit: " 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 1, // শুধুমাত্র অ্যাডমিন
         cooldown: 5,
         prefix: true,
