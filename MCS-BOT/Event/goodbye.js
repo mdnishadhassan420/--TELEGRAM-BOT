@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "goodbye",
         eventType: "left_chat_member", // মেম্বার লিভ নিলে এই ইভেন্ট ট্রিগার হয়
-        author: "MOHAMMAD-BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "মেম্বার গ্রুপ থেকে চলে গেলে কার্ডসহ বিদায় জানাবে"
     },
 
@@ -14,8 +14,8 @@ module.exports = {
         const chatId = msg.chat.id;
         const groupName = msg.chat.title || "Group";
         const leftUser = msg.left_chat_member;
-        const ownerID = "6954597258"; 
-        const ownerName = "MOHAMMAD-BADOL";
+        const ownerID = "6969889252"; 
+        const ownerName = "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر";
 
         if (!leftUser) return;
 
@@ -101,7 +101,7 @@ module.exports = {
             ctx.textAlign = 'right';
             ctx.font = 'bold 18px Arial';
             ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
-            ctx.fillText("⚡ MCS-BOT SYSTEM ⚡", 840, 540);
+            ctx.fillText("⚡ CSR-BOT SYSTEM ⚡", 840, 540);
 
             const buffer = canvas.toBuffer();
 
