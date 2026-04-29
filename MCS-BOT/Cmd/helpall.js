@@ -1,6 +1,6 @@
 /**
  * 🛠️ CLICKABLE COMMAND LIST HELP (FINAL FIXED)
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 🆔 TELEGRAM ID: 6954597258
  */
 
@@ -8,7 +8,7 @@ module.exports = {
     config: {
         name: "helpall",
         version: "1.3.5",
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0,
         cooldown: 5,
         prefix: true,
@@ -22,7 +22,7 @@ module.exports = {
         const chatId = msg.chat.id;
         const senderId = msg.from.id;
         const prefix = (global.CONFIG && global.CONFIG.BOT_SETTINGS) ? global.CONFIG.BOT_SETTINGS.PREFIX : '/';
-        const AUTHOR_ID = 6954597258;
+        const AUTHOR_ID = 6969889252;
 
         // সরাসরি global.COMMANDS থেকে ডাটা নেওয়া হচ্ছে যাতে ০ কমান্ড এরর না আসে
         const allCommands = Object.values(global.COMMANDS || {});
@@ -44,7 +44,7 @@ module.exports = {
                 categories[cat].push(`├‣ ${prefix}${conf.name}`);
             });
 
-            let helpMsg = "🤖 **MCS-BOT COMMAND LIST**\n";
+            let helpMsg = "🤖 **CSR-BOT COMMAND LIST**\n";
             helpMsg += "━━━━━━━━━━━━━━━━━━━━\n";
             helpMsg += `📊 **Total Commands:** \`${visibleCount}\`\n`;
             helpMsg += "━━━━━━━━━━━━━━━━━━━━\n";
@@ -57,7 +57,7 @@ module.exports = {
             }
 
             helpMsg += "\n━━━━━━━━━━━━━━━━━━━━\n";
-            helpMsg += `👤 **Developer:** [Mohammad Badol](tg://user?id=${AUTHOR_ID})\n`;
+            helpMsg += `👤 **Developer:** [𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر](tg://user?id=${AUTHOR_ID})\n`;
             helpMsg += `💡 বিস্তারিত: \`${prefix}help [কমান্ড]\``;
 
             return bot.sendMessage(chatId, helpMsg, { 
@@ -89,7 +89,7 @@ module.exports = {
         
         detail += `🛡️ **Role:** ${roleText}\n`;
         detail += "━━━━━━━━━━━━━━━━━━━━\n";
-        detail += `✿ **Credit:** ${conf.credit || 'Mohammad Badol'}`;
+        detail += `✿ **Credit:** ${conf.credit || '𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر'}`;
 
         return bot.sendMessage(chatId, detail, { parse_mode: "Markdown" });
     }
