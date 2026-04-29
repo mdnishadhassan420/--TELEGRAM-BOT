@@ -1,6 +1,6 @@
 module.exports.config = {
     name: "hi",
-    credits: "MOHAMMAD-BADOL",
+    credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
     aliases: ["hello", "ohey", "oi"],
     prefix: false, 
     permission: 0, 
