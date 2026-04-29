@@ -1,6 +1,6 @@
 /**
- * 🛠️ MCS-BOT COMMAND: KICK
- * 👤 AUTHOR: MOHAMMAD BADOL
+ * 🛠️ CSR-BOT COMMAND: KICK
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  */
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
         aliases: ["vag", "remove"],
         version: "1.0.2",
         role: 1, // শুধু অ্যাডমিন এবং ওনার ব্যবহার করতে পারবে
-        credit: "Mohammad Badol",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         cooldown: 5,
         category: "Admin",
         description: "রিপ্লাই করা ইউজারকে নোটিশ দিয়ে গ্রুপ থেকে কিক করে।",
@@ -19,7 +19,7 @@ module.exports = {
 
     run: async (bot, msg, args) => {
         const chatId = msg.chat.id;
-        const AUTHOR_ID = 6954597258; // আপনার আইডি
+        const AUTHOR_ID = 6969889252; // আপনার আইডি
 
         // ১. রিপ্লাই চেক
         if (!msg.reply_to_message) {
