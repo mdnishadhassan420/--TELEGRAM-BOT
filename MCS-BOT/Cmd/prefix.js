@@ -10,7 +10,7 @@ module.exports = {
     config: {
         name: "prefix",
         version: "2.5.0", 
-        credits: "MOHAMMAD-BADOL",
+        credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0, // Anyone can view, only owner can change
         prefix: false, 
         description: "View (Canvas) or change the bot's command prefix.",
@@ -23,7 +23,7 @@ module.exports = {
         const chatId = msg.chat.id;
         const messageId = msg.message_id;
         const senderID = msg.from.id;
-        const AUTHOR_ID = 6954597258; 
+        const AUTHOR_ID = 6969889252; 
 
         let currentConfig;
         try {
@@ -42,7 +42,7 @@ module.exports = {
         // ==========================================
         if (args.length > 0) {
             if (senderID !== AUTHOR_ID) { 
-                 return bot.sendMessage(chatId, "⛔ **Access Denied!** Only Mohammad Badol can change the prefix.");
+                 return bot.sendMessage(chatId, "⛔ **Access Denied!** Only 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر can change the prefix.");
             }
             
             const newPrefix = args[0].trim();
@@ -64,7 +64,7 @@ module.exports = {
                 out += `🔹 **Old Prefix:** \`${currentPrefix}\`\n`;
                 out += `✅ **New Prefix:** \`${newPrefix}\`\n`;
                 out += `━━━━━━━━━━━━━━━━━━━━\n`;
-                out += `👤 **Updated By:** \`Mohammad Badol\``;
+                out += `👤 **Updated By:** \`𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر\``;
 
                 return bot.sendMessage(chatId, out, { parse_mode: 'Markdown' });
 
@@ -115,7 +115,7 @@ module.exports = {
         // Text
         ctx.textAlign = "left";
         ctx.font = "bold 60px sans-serif"; ctx.fillStyle = "#00f2fe";
-        ctx.fillText("MCS-BOT", 220, 135);
+        ctx.fillText("CSR-BOT", 220, 135);
 
         ctx.textAlign = "center";
         ctx.font = "bold 34px sans-serif"; ctx.fillStyle = "#ffffff";
