@@ -1,8 +1,8 @@
 /**
- * 🤖 MCS-BOT COMMAND: CATBOX
- * 👤 CREDIT: MOHAMMAD BADOL
+ * 🤖 CSR-BOT COMMAND: CATBOX
+ * 👤 CREDIT: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
  * 📅 YEAR: 2026
- * 🆔 TELEGRAM ID: 6954597258
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 const axios = require("axios");
@@ -22,7 +22,7 @@ module.exports = {
     name: "catbox",
     aliases: ["cat", "cb", "upload"],
     version: "1.7.0",
-    credit: "MOHAMMAD BADOL", // শুধুমাত্র ক্রেডিট সিস্টেম রাখা হলো
+    credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر", // শুধুমাত্র ক্রেডিট সিস্টেম রাখা হলো
     role: 0,                   // Role Permission System
     cooldown: 5,               // Cooldown System
     prefix: true,
