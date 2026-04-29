@@ -1,11 +1,11 @@
 /**
  * 🤖 MCS-BOT COMMAND: LIVE SUPPORT SYSTEM
- * 👤 AUTHOR: MOHAMMAD BADOL
- * 🆔 TELEGRAM ID: 6954597258
+ * 👤 AUTHOR: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر
+ * 🆔 TELEGRAM ID: 6969889252
  */
 
 function makeBotBox(text) {
-    return `╭━─━─━❮ ✿𝐁𝐀𝐃𝐎𝐋-𝐁𝐎𝐓✿ ❯━─━─━╮\n\n${text}\n\n╰━──━─━−━━──━━─━━─━━─━❍`;
+    return `╭━─━─━❮ ✿CSR-BOT✿ ❯━─━─━╮\n\n${text}\n\n╰━──━─━−━━──━━─━━─━━─━❍`;
 }
 
 module.exports = {
@@ -13,8 +13,8 @@ module.exports = {
         name: "report",
         aliases: ["contact", "support"],
         version: "3.0.0",
-        author: "MOHAMMAD-BADOL",
-        credit: "MOHAMMAD BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
+        credit: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         role: 0,
         cooldown: 10, // ১০ সেকেন্ড কুলডাউন
         prefix: true,
@@ -26,7 +26,7 @@ module.exports = {
     run: async function (bot, msg, args) {
         const chatId = msg.chat.id;
         const senderId = msg.from.id;
-        const ADMIN_ID = 6954597258;
+        const ADMIN_ID = 6969889252;
 
         // --- ১. অ্যাডমিন রিপ্লাই হ্যান্ডলিং (সরাসরি রিপ্লাই দিলেই কাজ করবে) ---
         if (senderId === ADMIN_ID && msg.reply_to_message) {
