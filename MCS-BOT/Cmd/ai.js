@@ -6,7 +6,7 @@ module.exports = {
         aliases: ["gpt", "expert", "coder"],
         version: "2.3.0",
         permission: 0, 
-        credits: "Mohammad Badol",
+        credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         description: "Professional AI (Strict Logic & Coding)",
         prefix: true,
         category: "AI & Tools",
