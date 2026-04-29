@@ -1,12 +1,12 @@
 /**
- * 🤖 MCS-BOT HELP COMMAND (SELF-FIXED VERSION)
+ * 🤖 CSR-BOT HELP COMMAND (SELF-FIXED VERSION)
  * 🛠️ ফিক্সড: অন্য কোনো ফাইলে পরিবর্তন ছাড়াই কমান্ড লিস্ট দেখাবে।
  */
 
 module.exports.config = {
   name: "help",
   version: "1.2.5",
-  credits: "MOHAMMAD-BADOL",
+  credits: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
   role: 0, 
   prefix: true, 
   description: "বটের সকল কমান্ডের তালিকা এবং বিস্তারিত ব্যবহারবিধি দেখুন।",
@@ -50,7 +50,7 @@ module.exports.run = async (bot, msg, args) => {
 ├‣ 🔁 Aliases: ${aliasText}
 ├‣ 🔑 Permission: ${permText}
 ├‣ ⏱️ Cooldown: ${cooldown || 3}s
-├‣ ✿ Credits: ${credit || "Mohammad Badol"}
+├‣ ✿ Credits: ${credit || "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر"}
 ╰───────────────────────────⟡`;
 
             return bot.sendPhoto(chatId, HELP_IMG, { 
