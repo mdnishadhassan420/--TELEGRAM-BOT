@@ -84,8 +84,8 @@ function styleText(text, styleId) {
 }
 
 function createFontlistMessage() {
-    let msg = "╭━─━─━❮ 𝐌𝐂𝐒-𝐁𝐎𝐓 ❯━─━─━╮\n";
-    msg += "├‣ 𝐃𝐞𝐯: 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐁𝐚𝐝𝐨𝐥\n";
+    let msg = "╭━─━─━❮ 𝐂𝐒𝐑-𝐁𝐎𝐓 ❯━─━─━╮\n";
+    msg += "├‣ 𝐃𝐞𝐯: 𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر\n";
     msg += "╰━──━─━─━━──━─━─━─━❍\n";
     msg += "╭━─━─━❮✿ 𝐅𝐨𝐧𝐭 𝐋𝐢𝐬𝐭 ✿❯━─━─━╮\n";
     for (const id in FONT_MAPS) {
@@ -100,7 +100,7 @@ module.exports = {
     config: {
         name: "font",
         version: "1.0.0",
-        author: "MOHAMMAD-BADOL",
+        author: "𝐃𝐀𝐍𝐆𝐄𝐑 | خـطـــــر",
         countDown: 5,
         role: 0,
         description: "Create fancy styled text",
